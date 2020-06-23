@@ -2,8 +2,12 @@
 // Start the session
 
 // Include questions from the questions.php file
+include("inc/questions.php");
 
 // Make a variable to hold the total number of questions to ask
+$index = 2;
+$question = $questions[$index];
+
 
 // Make a variable to hold the toast message and set it to an empty string
 

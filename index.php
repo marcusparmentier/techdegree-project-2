@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <?php 
+        include("inc/quiz.php"); 
+        var_dump($question);
+        
+    ?>
     <div class="container">
         <div id="quiz-box">
             <p class="breadcrumbs">Question # of #</p>
             <p class="quiz">What is 54 + 71?</p>
-            <form action="index.html" method="post">
+            <form action="index.php" method="post">
                 <input type="hidden" name="id" value="0" />
                 <input type="submit" class="btn" name="answer" value="135" />
                 <input type="submit" class="btn" name="answer" value="125" />
